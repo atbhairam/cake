@@ -22,7 +22,7 @@ export default function Navbar() {
         </span>
       </Link>
 
-      <div className="flex gap-6 items-center font-medium text-white">
+      <div className="flex gap-8 items-center font-medium text-white">
         <Link href="/signin" className="hover:underline">
           Sign In
         </Link>
@@ -31,12 +31,6 @@ export default function Navbar() {
         </Link>
         <Link href="/discount" className="hover:underline">
           Offers
-        </Link>
-        <Link
-          href="/checkout"
-          className="bg-white text-pink-600 px-4 py-2 rounded-full font-semibold shadow-md hover:scale-105 transform transition"
-        >
-          Cart ({cart.length})
         </Link>
       </div>
     </nav>
